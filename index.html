@@ -210,13 +210,13 @@ main{position:relative}
 .pcard h3{font-family:var(--f-brand);font-weight:800;font-size:clamp(28px,3.2vw,40px);letter-spacing:-.03em;margin-top:14px;color:var(--c)}
 .pcard .one{font-family:var(--f-head);font-weight:700;font-size:20px;line-height:1.25;margin-top:8px}
 .pcard .d{color:var(--ink-soft);margin-top:10px;font-size:17px}
-.pcard img{position:absolute;right:22px;top:22px;width:84px;height:auto;filter:drop-shadow(0 10px 16px rgba(0,0,0,.5))}
-.pcard.has-img .tag,.pcard.has-img h3{margin-right:96px}
+.pcard img{position:absolute;right:22px;top:20px;width:auto;height:84px;filter:drop-shadow(0 10px 16px rgba(0,0,0,.5))}
+.pcard.has-img .tag,.pcard.has-img h3{margin-right:124px}
 .pcard.wide{grid-column:1 / -1}
 .pcard.wide .d{max-width:60ch}
 .pbtn{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font:800 16px var(--f-head);text-decoration:none;color:var(--paper);background:var(--c);padding:12px 20px;border-radius:999px}
 .pbtn:hover{transform:translateY(-2px)}
-@media (max-width:520px){.pcard img{width:72px}.pcard.has-img .tag,.pcard.has-img h3{margin-right:84px}}
+@media (max-width:520px){.pcard img{height:70px}.pcard.has-img .tag,.pcard.has-img h3{margin-right:104px}}
 
 /* ---------- breathe: how I work ---------- */
 .how{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,40px);margin-top:48px}
